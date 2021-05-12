@@ -1,0 +1,27 @@
+package chap5;
+
+public class java5_5 {
+
+	public static void main(String[] args) {
+		// Å¬·¡½º 5 - static
+		A.m_nVar = 5;
+		
+		A test1 = new A();
+		A test2 = new A();
+		A test3 = new A();
+
+		System.out.printf("%1$d %2$d %3$d\n", test1.m_nVar, test2.m_nVar, test3.m_nVar);
+		
+		test1.m_nVar = 11;
+		System.out.printf("%1$d %2$d %3$d\n", test1.m_nVar, test2.m_nVar, test3.m_nVar);
+		
+		A.m_nVar = 7;
+		System.out.printf("%1$d %2$d %3$d\n", test1.m_nVar, test2.m_nVar, test3.m_nVar);
+	}
+
+}
+
+class A 
+{
+	public static int m_nVar;
+}

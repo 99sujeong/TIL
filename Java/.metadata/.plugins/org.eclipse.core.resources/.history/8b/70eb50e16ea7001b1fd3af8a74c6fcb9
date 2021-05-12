@@ -1,0 +1,38 @@
+package chap5;
+
+public class java5_4 {
+	
+	public static void main(String[] args) {
+		// 클래스 4 - 생성자
+		// 매개변수 없는 생성자
+		A test = new A();
+		System.out.println("test m_nVar : " + test.Get());
+		System.out.println("test m_fVar : " + test.m_fVar);
+		
+		// 매개변수 있는 생성자 
+		A test2 = new A(7);
+		
+	}
+	
+}
+
+class A 
+{
+	private int m_nVar;
+	public float m_fVar = 3.14f;
+	
+	public A()
+	{
+		m_nVar = 12;
+	}
+	
+	public A (int nVar)
+	{
+		m_nVar = nVar;
+	}
+	
+	public int Get()
+	{
+		return m_nVar;
+	}
+}
