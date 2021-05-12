@@ -1,0 +1,25 @@
+package chap1;
+
+public class java4_2 {
+
+	public static void main(String[] args) {
+		// 배열 초기화
+				int[] nArray = new int[3];
+				boolean[] bArray = new boolean[3];
+				float[] fArray = new float[3];
+				
+				for (int i = 0; i < nArray.length; i++) // .length -> 배열 길이 
+					System.out.printf("%1$d ", nArray[i]); // format
+				
+				System.out.println();
+				
+				for (int i = 0; i < bArray.length; i++) // .length -> 배열 길이 
+					System.out.printf("%1$d ", bArray[i]); // format
+				
+				System.out.println();
+				
+				for (int i = 0; i < fArray.length; i++) // .length -> 배열 길이 
+					System.out.printf("%1$d ", fArray[i]); // format
+	}
+
+}

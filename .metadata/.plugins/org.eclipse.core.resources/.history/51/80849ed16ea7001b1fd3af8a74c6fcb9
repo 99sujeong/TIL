@@ -1,0 +1,33 @@
+package chap5;
+
+public class java5_4 {
+	
+	public static void main(String[] args) {
+		// 클래스 4 - 생성자
+		A test = new A();
+		
+		System.out.println("test m_nVar : " + test.Get());
+	}
+	
+}
+
+class A 
+{
+	private int m_nVar;
+	public float m_fVar = 3.14f;
+	
+	public A()
+	{
+		m_nVar = 12;
+	}
+	
+	public A (int nVar)
+	{
+		m_nVar = nVar;
+	}
+	
+	public int Get()
+	{
+		return m_nVar;
+	}
+}

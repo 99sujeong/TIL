@@ -1,0 +1,25 @@
+package chap1;
+
+public class java3 {
+
+	public static void main(String[] args) {
+		// ¹Ýº¹¹®
+		for (int i = 0; i < 3; i++ )
+		{
+			System.out.println("java programming");
+		}
+		
+		int i = 0;
+		while (i < 3)
+		{
+			System.out.println("java programming");
+			i++;
+		}
+		
+		do
+		{
+			System.out.println("java programming");
+		} while (false);
+	}	
+
+}

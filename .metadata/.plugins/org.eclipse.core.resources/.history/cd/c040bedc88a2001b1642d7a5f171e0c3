@@ -1,0 +1,18 @@
+package chap1;
+
+public class java3_2 {
+
+	public static void main(String[] args) {
+		// 선택문
+		// if ~ else문
+		int nVar = 12;
+		if (nVar < 20 )
+		{
+			System.out.println("java programming");
+		} else {
+			System.out.println("good!");
+		}
+
+	}
+
+}

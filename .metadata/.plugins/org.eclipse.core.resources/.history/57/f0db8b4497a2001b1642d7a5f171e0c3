@@ -1,0 +1,19 @@
+package chap1;
+
+public class java5_1 {
+
+	public static void main(String[] args) {
+		// 클래스
+		
+
+	}
+
+}
+
+class Book {
+	String m_strTitle;		// 책 제목
+	int m_nPage;			// 페이지 수 
+	String m_strPublisher;	// 출판사 
+	int m_nPrice;			// 가격
+	
+}
