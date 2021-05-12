@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\[UNIVERSITY]\2021\SpringBoot\.metadata\.plugins\org.eclipse.jdt.core
+2595051985.index
+2209010024.index
